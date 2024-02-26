@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Light-Cyan: hsl(179, 62%, 49%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body {
+    min-height: 100vh;
+    margin: 5rem 2rem;
+    background-color: var(--Light-Gray);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0.4rem;
+    box-shadow: -10px 14px 10px rgba(155, 214, 217, 0.2);
+}
+
+.top-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+
+h1 {
+    color: var(--Cyan);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.guarantee {
+    color: var(--Bright-Yellow);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.note {
+    color: var(--Grayish-Blue);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+    text-align: left;
+}
+
+.left-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--Cyan);
+    padding: 2rem;
+}
+
+.subscription {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.plan {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.plan span {
+    font-size: 1rem;
+    position: relative;
+    bottom: 0.5rem;
+    color: rgb(224, 222, 222);
+    font-weight: 400;
+}
+
+.access {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+button{
+    width: 15rem;
+    height: 3rem;
+    font-family: "Karla", sans-serif;
+    color: white;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.258);
+}
+
+.right-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--Light-Cyan);
+    padding: 2rem;  
+    border-radius: 0 0 0.4rem 0.4rem;
+}
+
+
+
+.attribution {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--Light-Cyan);
+}
+
+a {
+    text-decoration: none;
+    color: var(--Cyan);
+}
+
+
+/*=======Desktop & Tablets=======*/
+
+@media (min-width: 600px) {
+    body {
+        min-height: 100vh;
+        margin: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Light-Gray);
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        width: 50%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .top-row {
+        padding: 3rem;
+        grid-column: 1 / span 2;
+    }
+
+    .left-row {
+        padding: 3rem;
+        border-radius: 0 0 0 0.4rem;
+    }
+
+    .right-row {
+        padding: 3rem;
+        border-radius: 0 0 0.4rem 0 ;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
