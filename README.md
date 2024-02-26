@@ -17,3 +17,11 @@ Feel free to use any workflow that you feel comfortable with.
 - Analyse my approach to structuring my HTML.
 - Mobile-first styling.
 - CSS Grid
+
+  ## Desktop design
+  
+![desktop-design](https://github.com/ioddgamers/Single-price-grid-component/assets/25953991/1485df8f-26bf-4ec5-98e4-3fd4909e9fec)
+
+  ## Mobile Design
+  
+  ![mobile-design](https://github.com/ioddgamers/Single-price-grid-component/assets/25953991/14e752bb-0f14-483b-bb6c-033e46a7f9ce)
