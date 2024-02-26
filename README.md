@@ -26,5 +26,8 @@ Feel free to use any workflow that you feel comfortable with.
   
   ![mobile-design](https://github.com/ioddgamers/Single-price-grid-component/assets/25953991/14e752bb-0f14-483b-bb6c-033e46a7f9ce)
 
-  ## Solution Page
+  ## Live page
   https://ioddgamers.github.io/Single-price-grid-component/  
+
+  ## Solution Page
+  https://www.frontendmentor.io/solutions/responsive-component-using-css-grid-and-flexbox-CJ20wDX9a5
